@@ -90,3 +90,10 @@ nav ul li a:hover {
 .join-button:hover {
    background-color:#7A6AE6; 
 }
+
+.footer {
+    background-color: #6351e4;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
