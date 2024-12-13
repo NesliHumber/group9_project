@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #E8F0FE;
+}
+
+header {
+    background-color: #6351e4;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #7A6AE6;
+    transform: scale(1.05);
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 20px;
+}
+
+.about-section {
+    background-color: #D1E4FF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-section h1 {
+    color: #6351e4;
+}
+
+.group-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.group-card h2 {
+    color: #6351e4;
+}
+
+.group-card p {
+    color: #333;
+}
+
+.join-button {
+    background-color: #6351e4; 
+    color: white; 
+    border-radius: 5px; 
+    padding: 10px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.join-button:hover {
+   background-color:#7A6AE6; 
+}
