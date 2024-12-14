@@ -11,3 +11,8 @@ Fundamentalas of JavaScript _ 2024 Fall _ Group 9 _ Group Project
 ![Forum - post button functionality](assets/forum2.png)
 ![Trends](assets/trends.png)
 ![Contact us](assets/contact_us.png)
+![Find swap](assets/find_swap1.png)
+![Find swap](assets/find_swap2.png)
+![Shop](assets/shop1.png)
+![Shop](assets/shop2.png)
+![Shop](assets/shop3.png)
