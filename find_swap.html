@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap Scheduling System</title>
+    <link rel="stylesheet" href="find_swap.css">
+    <script src="find_swap.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">SkillSwap</div>
+        <nav>
+            <ul>
+                <li><a href="https://neslihumber.github.io/group9_project/index.html">Home</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/about.html">About Us</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/user.html">My Account</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/find_swap.html">Find Swap</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/groups.html">Groups</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/forum.html">Forum</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/trends.html">Trends & News</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/shop.html">Shop</a></li>
+                <li><a href="https://neslihumber.github.io/group9_project/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Calendar and Availability Section -->
+    <section id="calendar">
+        <h2>Set Your Availability</h2>
+        <label for="availability">Select Available Date and Time:</label><br><br>
+        <input type="datetime-local" id="availability" required>
+        <button id="setAvailability" onclick="setAvailability()">Set Availability</button>
+        <p id="availabilityMessage"></p>
+    </section>
+
+    <!-- Booking System Section -->
+    <section id="booking">
+        <h2>Request a Swap Session</h2>
+        <form id="bookingForm">
+            <label for="bookingDate">Choose a Date:</label><br>
+            <input type="date" id="bookingDate" required><br><br>
+
+            <label for="bookingTime">Choose a Time:</label><br>
+            <input type="time" id="bookingTime" required><br><br>
+
+            <button type="submit">Book Swap</button>
+        </form>
+        <p id="bookingMessage"></p>
+    </section>
+
+    <!-- Email Notification Section (for backend integration) -->
+    <section id="emailNotifications">
+        <h2>Email Notifications</h2>
+        <p id="emailMessage">You will receive notifications for swap requests and confirmations.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SkillSwap. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
