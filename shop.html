@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSwap - Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">SkillSwap</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="user.html">My Account</a></li>
+                <li><a href="find_swap.html">Find Swap</a></li>
+                <li><a href="groups.html">Groups</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="trends.html">Trends & News</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-preview">
+            <div class="cart-items">Cart: <span id="cart-count">0</span> items</div>
+            <div class="cart-total">Total: $<span id="cart-total">0.00</span></div>
+        </div>
+    </header>
+
+    <main class="shop-container">
+        <h1>Shop</h1>
+        <p>Explore our exclusive items for IT education and swap services. Add them to your cart or wishlist!</p>
+        <input type="text" id="search-bar" placeholder="Search for items...">
+        <button id="sort-price">Sort by Price</button>
+        <section class="shop-items">
+            <div class="item">
+                <img src="assets/python_course.jpg" alt="Python Programming Course">
+                <h2>Python Programming Basics</h2>
+                <div class="reviews">⭐⭐⭐⭐ (4.5)</div>
+                <p class="price">$29.99</p>
+                <p class="description">Learn Python fundamentals, including syntax, loops, and functions. Perfect for beginners!</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="save-for-later">Save for Later</button>
+            </div>
+            <div class="item">
+                <img src="assets/web_dev_course.jpg" alt="Web Development Course">
+                <h2>Web Development Starter Pack</h2>
+                <div class="reviews">⭐⭐⭐⭐⭐ (5.0)</div>
+                <p class="price">$39.99</p>
+                <p class="description">Start building websites with HTML, CSS, and JavaScript. Ideal for new developers!</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="save-for-later">Save for Later</button>
+            </div>
+            <div class="item">
+                <img src="assets/data_science.jpg" alt="Data Science Essentials">
+                <h2>Data Science Essentials</h2>
+                <div class="reviews">⭐⭐⭐⭐ (4.2)</div>
+                <p class="price">$35.99</p>
+                <p class="description">Master data analysis and visualization with Python libraries. Intermediate level.</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="save-for-later">Save for Later</button>
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SkillSwap. All rights reserved.</p>
+    </footer>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="Product Image">
+            <p id="modal-description"></p>
+            <p>Price: $<span id="modal-price"></span></p>
+        </div>
+    </div>
+
+    <script src="shop.js"></script>
+</body>
+</html>
