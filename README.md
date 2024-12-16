@@ -8,7 +8,6 @@ Welcome to the Computer Programming Skill Swap Platform! This platform is design
 
 - Project Overview
 - Main Features
-- Screenshots
 - Technologies
 - Installation Instructions
 - Usage
@@ -17,6 +16,7 @@ Welcome to the Computer Programming Skill Swap Platform! This platform is design
 - Development Phases
 - Challenges & Solutions
 - Links & Resources
+- Screenshots
 
 ## Project Overview
 
@@ -43,20 +43,6 @@ The Computer Programming Skill Swap Platform aims to solve the problem of findin
 **Forum:** A community-driven discussion forum where users can ask questions and share experiences.
 **Groups:** Users can form or join study groups based on their learning interests.
 **Shopping:** Users can purchase or sell coding materials through the platform’s online store.
-
-### Screenshots
-
-Here are some screenshots of the platform to give you a better idea of the user interface and features:
-
-**Homepage:**
-
-**User Dashboard:**
-
-**Skill Matching:**
-
-**Forum:**
-
-**Shop Page:**
 
 ### Technologies
 
@@ -196,18 +182,40 @@ Support for video conferencing tools for virtual sessions.
 More personalized skill suggestions using AI/ML models.
 Implementing automation testing via Selenium-Cucumber-Playwright for enhanced quality assurance
 
+### Screenshots
+
+Here are some screenshots of the platform to give you a better idea of the user interface and features:
+
+
+**Homepage:**
+
 ![Homepage](assets/homepage.png)
 ![Homepage content](assets/homepage2.png)
+
+**About Us**
+
 ![About us](assets/about_us.png)
+
+**User Dashboard:**
+
 ![My account](assets/my_account.png)
 ![Groups](assets/groups.png)
 ![Groups - join button functionality](assets/groups2.png)
+
+**Forum:**
+
 ![Forum](assets/forum.png)
 ![Forum - post button functionality](assets/forum2.png)
 ![Trends](assets/trends.png)
 ![Contact us](assets/contact_us.png)
+
+**Skill Matching:**
+
 ![Find swap](assets/find_swap1.png)
 ![Find swap](assets/find_swap2.png)
+
+**Shop Page:**
+
 ![Shop](assets/shop1.png)
 ![Shop](assets/shop2.png)
 ![Shop](assets/shop3.png)
