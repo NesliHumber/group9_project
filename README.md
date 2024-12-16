@@ -72,61 +72,101 @@ The platform is built with the following technologies:
 
 To get started with the Computer Programming Skill Swap Platform locally, follow these steps:
 
-Clone the repository:
+To clone the repository:
 
-bash
-Copy code
-git clone https://github.com/NesliHumber/group9_project.git
-cd group9_project
-Install dependencies: Ensure you have Node.js and npm installed, then run:
+GitHub repository: https://github.com/NesliHumber/group9_project.git
+Install dependencies: Ensure you have Node.js and npm installed
 
-bash
-Copy code
-npm install
-Run the app locally:
+To use the application:
 
-bash
-Copy code
-npm start
-The app should now be running on http://localhost:3000.
+GitHub Pages Live URL: https://neslihumber.github.io/group9_project/ 
 
 ### Usage
 
 Once the platform is up and running, you can:
 
-Sign Up: Create a user account to get started.
-Profile Management: Add skills, set your expertise level, and start connecting with others.
-Skill Swap: Browse potential partners and schedule swap sessions.
-Engage in Discussions: Participate in the forum or join a group.
-Shop: Browse and purchase programming materials or educational resources.
+- Sign Up: Create a user account to get started.
+- Profile Management: Add skills, set your expertise level, and start connecting with others.
+- Skill Swap: Browse potential partners and schedule swap sessions.
+- Engage in Discussions: Participate in the forum or join a group.
+- Shop: Browse and purchase programming materials or educational resources.
 
 ### Team Members & Contributions
 
-Mitzi Garcia (Frontend Developer & UI/UX Designer)
-Developed the layout and styling of the platform, ensuring user accessibility and a responsive design.
+#### Neslihan Ustaoglu (JavaScript Developer & Documentation Specialist & Manual Tester)
 
-A. S. (JavaScript Developer)
-Implemented the interactive features using Node.js and React.js, and worked on skill matching and swap scheduling functionalities.
+- Developed and maintained project documentation including
+    - project plan,
+    - Project Phase 1 - Development Checkpoint
+    - Project Phase 2 - Development Phase Progress Report
+    - Development of README.md file
+- Created and updated GitHub Issues, GitHub Project Board
+- Conducted and maintained branch strategy, handling pull request reviews, possible merge conflicts, any other issues encountered 
+    - Maintained branching strategy as follows:
+        - For functionality development seperate **feature/<feature-name>** branch for every functionality
+        - For development track **develop** branch
+        - Conducting deployment via seperate **deploy** branch
+- Performed manual testing to ensure platform functionality
 
-R. V. S. (Project Manager)
-Managed the project, GitHub workflow, and communication among team members. Also worked on the contact page and the project’s deployment.
+#### Mitzi Garcia (JavaScript Developer & UI/UX Designer & Social Media Manager & Manual Tester)
 
-N. U. (Quality Assurance Tester & Documentation Specialist)
-Developed and executed test cases to ensure platform functionality. Maintained project documentation, including technical and design reports.
+- Developed the layout and styling of the platform, ensuring user accessibility and a responsive design
+- Ensured consistent layout and styling across all pages and application functionalities
+- Developed ............... pages
+- Worked on .... functionalities
+- Added ..............
+- Used ...... branches
+- Performed manual testing to ensure platform functionality
+
+#### Aakarshan Sharma (JavaScript Developer & Manual Tester)
+- Developed ............... pages
+- Worked on .... functionalities
+- Added ..............
+- Used ...... branches
+- Performed manual testing to ensure platform functionality
+
+#### Ralph Vincent Sampaga (JavaScript Developer & Manual Tester)
+- Developed ............... pages
+- Worked on .... functionalities
+- Added ..............
+- Used ...... branches
+- Performed manual testing to ensure platform functionality
 
 ### Project Workflow
 
-Repository: GitHub Repository
+#### GitHub Repository
 
-Branches:
+  https://github.com/NesliHumber/group9_project.git
 
-main: The main branch where the stable code resides.
-develop: Used for integrating all features before deployment.
-feature/*: Feature-specific branches for development.
-Pull Requests: Changes are merged into the develop branch via pull requests, with at least one peer review required for approval.
+#### Branches:
 
-Issues & Project Board:
-The project board is used to manage tasks and progress. Project Board Link
+  main
+  deploy
+  develop
+  feature/forums_page
+  feature/groups_page
+  feature/shop_page
+  feature/find_swap_page
+  feature/home_page
+  feature/about_us
+  feature/contact_page
+  feature/trends_and_news
+  feature/user_dashboard
+
+
+**main:** The main branch where the stable code resides.
+**develop:** Used for integrating all features before deployment.
+**deploy:** Used for deploying all functionalities before transfering the codes to main branch.
+**feature/<feature-name>:** Page-specific branches for development.
+**Pull Requests:** Changes are merged into the develop branch via pull requests, with at least one peer review required for approval.
+
+### Issues & Project Board:
+
+10 issues are created and closed after functionality development.
+GitHub issues (closed) link: https://github.com/NesliHumber/group9_project/issues?q=is%3Aissue+is%3Aclosed 
+
+The project board is used to manage tasks and progress. 
+Project Board Link: https://github.com/users/NesliHumber/projects/1/views/2
 
 ### Development Phases
 
@@ -144,9 +184,9 @@ Solution: After selecting a secure payment provider, we designed a user-friendly
 
 ### Links & Resources
 
-GitHub Repository: group9_project
-Project Board: GitHub Project Board
-Deployment: The project is hosted on GitHub Pages. Visit the live version at:
+GitHub Repository: [group9_project](https://github.com/NesliHumber/group9_project.git)
+Project Board: GitHub Project Board: https://github.com/users/NesliHumber/projects/1/views/2
+Deployment: The project is hosted on GitHub Pages. Visit the live version at: https://neslihumber.github.io/group9_project/ 
 GitHub Pages
 
 ### Future Enhancements:
@@ -154,6 +194,7 @@ GitHub Pages
 Integration with coding challenge platforms (e.g., LeetCode, Codewars).
 Support for video conferencing tools for virtual sessions.
 More personalized skill suggestions using AI/ML models.
+Implementing automation testing via Selenium-Cucumber-Playwright for enhanced quality assurance
 
 ![Homepage](assets/homepage.png)
 ![Homepage content](assets/homepage2.png)
