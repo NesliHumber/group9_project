@@ -48,11 +48,11 @@ The Computer Programming Skill Swap Platform aims to solve the problem of findin
 
 The platform is built with the following technologies:
 
-- Frontend: HTML, CSS, Bootstrap
+- Frontend: HTML, CSS, JavaScript
 - Interactive Functionality: Node.js, JavaScript, React.js
-- Automation Testing: Selenium, Playwright
 - Deployment: GitHub Pages for hosting
 - Version Control: GitHub (with branching strategies for development, testing, and deployment)
+- Automation Testing: Selenium, Cucumber, Playwright (will be implemented in the future versions)
 
 ### Installation Instructions
 
@@ -72,10 +72,11 @@ GitHub Pages Live URL: https://neslihumber.github.io/group9_project/
 Once the platform is up and running, you can:
 
 - Sign Up: Create a user account to get started.
-- Profile Management: Add skills, set your expertise level, and start connecting with others.
+- Profile Management: Add skills, set & display your expertise level via total swaps - skills learned - skills taught sections, and start connecting with others via swaps and messages.
 - Skill Swap: Browse potential partners and schedule swap sessions.
-- Engage in Discussions: Participate in the forum or join a group.
-- Shop: Browse and purchase programming materials or educational resources.
+- Participate in Groups: Create new group or participate existing groups realted to specific topics for better engagement.
+- Engage in Discussions: Participate in the forums related to specifc topics or search through forums for any information.
+- Shop: Browse & purchase or sale programming materials or educational resources.
 
 ### Team Members & Contributions
 
@@ -158,34 +159,44 @@ Project Board Link: https://github.com/users/NesliHumber/projects/1/views/2
 
 Phase 1: Setup repository, implement user registration, and initial profile management.
 Phase 2: Develop skill matching, swap scheduling, and user dashboard functionalities.
-Phase 3: Add rating/review system, forums, and payment gateway.
-Phase 4: Final testing, deployment, and bug fixing.
+Phase 3: Add rating/review system, forums, and shop page.
+Phase 4: Manual testing, deployment, and bug fixing.
 
 ### Challenges & Solutions
 
-Challenge 1: Integrating the Swap Scheduling Feature
+**Challenge 1:** Integrating the Swap Scheduling Feature
 Solution: We researched different calendar libraries and successfully integrated a custom solution to handle date/time selection and swap session confirmations.
-Challenge 2: Payment Gateway Integration
-Solution: After selecting a secure payment provider, we designed a user-friendly checkout flow and ensured smooth payment processing.
+
+**Challenge 2:** Payment Gateway Integration
+**For future versions:** we search for a secure payment provider to integrate our user-friendly checkout flow to ensure smooth payment processing.
+
+**Challenge 3:** Since deployment of the web site was the main goal for this phase, the process of incorporating the feature/branch folders into deployment process was the main challenge for this phase. 
+**Solution:** We decided to continue our functionality development process via pushing separate feature/<feature-name> branches per web page and creating pull request from these branches to the develop branch on the remote. For the deployment, we decided to create a separate deploy branch on the remote and we added last version of every functionality to deploy branch. Our website deployment is rooting from this deploy branch until future version upgrades.
+
+**Challenge 4:** Connecting all pages together under navigation bar interactively via active URL absolute paths was the second challenge during development process. 
+**Solution:** Our strategy is to use the same navigation bar codes inside every page with a common .css styling.
 
 ### Links & Resources
 
-GitHub Repository: [group9_project](https://github.com/NesliHumber/group9_project.git)
-Project Board: GitHub Project Board: https://github.com/users/NesliHumber/projects/1/views/2
-Deployment: The project is hosted on GitHub Pages. Visit the live version at: https://neslihumber.github.io/group9_project/ 
-GitHub Pages
+**GitHub Repository:** [group9_project](https://github.com/NesliHumber/group9_project.git)
+**Project Board:** GitHub Project Board: https://github.com/users/NesliHumber/projects/1/views/2
+**Deployment:** The project is hosted on GitHub Pages. Visit the live version at: [https://neslihumber.github.io/group9_project/](https://neslihumber.github.io/group9_project/)
+
 
 ### Future Enhancements:
 
-Integration with coding challenge platforms (e.g., LeetCode, Codewars).
-Support for video conferencing tools for virtual sessions.
-More personalized skill suggestions using AI/ML models.
-Implementing automation testing via Selenium-Cucumber-Playwright for enhanced quality assurance
+- Creating a sign up page which connects to MyAccount page after new user registration
+- Creating a new group based on a specifc topic to be an alternative to existing groups
+- Development of shopping cart display page including shipment & billing address
+- Integration of shopping cart display page with a secure payment provider
+- Integration with coding challenge platforms (e.g., LeetCode, Codewars).
+- Support for video conferencing tools for virtual sessions.
+- More personalized skill suggestions using AI/ML models.
+- Implementing automation testing via Selenium-Cucumber-Playwright for enhanced quality assurance
 
 ### Screenshots
 
 Here are some screenshots of the platform to give you a better idea of the user interface and features:
-
 
 **Homepage:**
 
