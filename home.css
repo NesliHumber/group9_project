@@ -227,3 +227,12 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+.signup-button {
+    background-color: #4CAF50;
+    margin-left: 1rem;
+}
+
+.signup-button:hover {
+    background-color: #45a049;
+}

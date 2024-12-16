@@ -39,6 +39,7 @@
 
         <section class="main-content">
             <h1>Welcome, User!</h1>
+            <div id="user-info"></div>
             <div class="dashboard-stats">
                 <div class="stat-card">
                     <h3>Total Swaps</h3>
@@ -67,6 +68,20 @@
     <footer>
         <p>&copy; 2024 SkillSwap - Programming Skill Swap Platform. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const userDataString = localStorage.getItem('userData');
+            if (userDataString) {
+                const userData = JSON.parse(userDataString);
+                document.querySelector('h1').textContent = `Welcome, ${userData.username}!`;
+                document.getElementById('user-info').innerHTML = `
+                    <p>Username: ${userData.username}</p>
+                    <p>Email: ${userData.email}</p>
+                `;
+            }
+        });
+    </script>
 
 </body>
 </html>
