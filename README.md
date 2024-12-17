@@ -173,10 +173,10 @@ Once the platform is up and running, you can:
 
 ### Development Phases
 
-Phase 1: Setup repository, implement user registration, and initial profile management.
-Phase 2: Develop skill matching, swap scheduling, and user dashboard functionalities.
-Phase 3: Add rating/review system, forums, and shop page.
-Phase 4: Manual testing, deployment, and bug fixing.
+* Phase 1: Setup repository, implement user registration, and initial profile management.
+* Phase 2: Develop skill matching, swap scheduling, and user dashboard functionalities.
+* Phase 3: Add rating/review system, forums, and shop page.
+* Phase 4: Manual testing, deployment, and bug fixing.
 
 ### Challenges & Solutions
 
