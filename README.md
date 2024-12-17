@@ -137,18 +137,20 @@ Once the platform is up and running, you can:
 
 #### Branches:
 
-  main
-  deploy
-  develop
-  feature/forums_page
-  feature/groups_page
-  feature/shop_page
-  feature/find_swap_page
-  feature/home_page
-  feature/about_us
-  feature/contact_page
-  feature/trends_and_news
-  feature/user_dashboard
+  + main
+  + deploy
+  + develop
+  + feature/forums_page
+  + feature/groups_page
+  + feature/shop_page
+  + feature/find_swap_page
+  + feature/home_page
+  + feature/about_us
+  + feature/contact_page
+  + feature/trends_and_news
+  + feature/user_dashboard
+  + feature/sign_up
+  + feature/sign_in
 
 
 **main:** The main branch where the stable code resides.
@@ -174,23 +176,23 @@ Phase 4: Manual testing, deployment, and bug fixing.
 
 ### Challenges & Solutions
 
-**Challenge 1:** Integrating the Swap Scheduling Feature
-Solution: We researched different calendar libraries and successfully integrated a custom solution to handle date/time selection and swap session confirmations.
+* **Challenge 1:** Integrating the Swap Scheduling Feature
+* Solution: We researched different calendar libraries and successfully integrated a custom solution to handle date/time selection and swap session confirmations.
 
-**Challenge 2:** Payment Gateway Integration
-**For future versions:** we search for a secure payment provider to integrate our user-friendly checkout flow to ensure smooth payment processing.
+* **Challenge 2:** Payment Gateway Integration
+* **For future versions:** we search for a secure payment provider to integrate our user-friendly checkout flow to ensure smooth payment processing.
 
-**Challenge 3:** Since deployment of the web site was the main goal for this phase, the process of incorporating the feature/branch folders into deployment process was the main challenge for this phase. 
-**Solution:** We decided to continue our functionality development process via pushing separate feature/<feature-name> branches per web page and creating pull request from these branches to the develop branch on the remote. For the deployment, we decided to create a separate deploy branch on the remote and we added last version of every functionality to deploy branch. Our website deployment is rooting from this deploy branch until future version upgrades.
+* **Challenge 3:** Since deployment of the web site was the main goal for this phase, the process of incorporating the feature/branch folders into deployment process was the main challenge for this phase. 
+* **Solution:** We decided to continue our functionality development process via pushing separate feature/<feature-name> branches per web page and creating pull request from these branches to the develop branch on the remote. For the deployment, we decided to create a separate deploy branch on the remote and we added last version of every functionality to deploy branch. Our website deployment is rooting from this deploy branch until future version upgrades.
 
-**Challenge 4:** Connecting all pages together under navigation bar interactively via active URL absolute paths was the second challenge during development process. 
-**Solution:** Our strategy is to use the same navigation bar codes inside every page with a common .css styling.
+* **Challenge 4:** Connecting all pages together under navigation bar interactively via active URL absolute paths was the second challenge during development process. 
+* **Solution:** Our strategy is to use the same navigation bar codes inside every page with a common .css styling.
 
 ### Links & Resources
 
-**GitHub Repository:** [group9_project](https://github.com/NesliHumber/group9_project.git)
-**Project Board:** GitHub Project Board: https://github.com/users/NesliHumber/projects/1/views/2
-**Deployment:** The project is hosted on GitHub Pages. Visit the live version at: [https://neslihumber.github.io/group9_project/](https://neslihumber.github.io/group9_project/)
+* **GitHub Repository:** [group9_project](https://github.com/NesliHumber/group9_project.git)
+* **Project Board:** GitHub Project Board: https://github.com/users/NesliHumber/projects/1/views/2
+* **Deployment:** The project is hosted on GitHub Pages. Visit the live version at: [https://neslihumber.github.io/group9_project/](https://neslihumber.github.io/group9_project/)
 
 
 ### Future Enhancements:
