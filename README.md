@@ -36,13 +36,13 @@ The Computer Programming Skill Swap Platform aims to solve the problem of findin
 
 ### Main Features
 
-**User Registration & Login:** Secure authentication system for user registration and login.
-**Interactive Skill Matching:** Filters to sort potential swap partners based on programming languages, frameworks, and experience levels.
-**Booking & Scheduling System:** Users can set their availability and request swap sessions via an integrated calendar.
-**Review System:** After each swap, users can rate the session and provide feedback.
-**Forum:** A community-driven discussion forum where users can ask questions and share experiences.
-**Groups:** Users can form or join study groups based on their learning interests.
-**Shopping:** Users can purchase or sell coding materials through the platform’s online store.
+* **User Registration & Login:** Secure authentication system for user registration and login.
+* **Interactive Skill Matching:** Filters to sort potential swap partners based on programming languages, frameworks, and experience levels.
+* **Booking & Scheduling System:** Users can set their availability and request swap sessions via an integrated calendar.
+* **Review System:** After each swap, users can rate the session and provide feedback.
+* **Forum:** A community-driven discussion forum where users can ask questions and share experiences.
+* **Groups:** Users can form or join study groups based on their learning interests.
+* **Shopping:** Users can purchase or sell coding materials through the platform’s online store.
 
 ### Technologies
 
