@@ -91,6 +91,34 @@ nav ul li a:hover {
    background-color:#7A6AE6; 
 }
 
+#create-group-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#create-group-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#create-group-form button {
+    background-color: #6351e4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#create-group-form button:hover {
+    background-color: #7A6AE6;
+}
+
 .footer {
     background-color: #6351e4;
     color: #fff;

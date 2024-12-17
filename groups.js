@@ -1,54 +1,35 @@
-// Group objects
-const group1 = {
-    name: "Math Enthusiasts",
-    courses: ["Math", "Statistics", "Calculus"],
+// Group class
+class Group {
+    constructor(name, courses) {
+        this.name = name;
+        this.courses = courses;
+    }
+
     displayInfo() {
         return `${this.name} offers courses in ${this.courses.join(", ")}.`;
-    },
+    }
+
     addCourse(course) {
         this.courses.push(course);
         console.log(`Added new course to ${this.name}: ${course}`);
-    },
+    }
+
     getTotalCourses() {
         return this.courses.length;
     }
- };
- 
- const group2 = {
-    name: "JavaScript Developers",
-    courses: ["JavaScript", "React", "Node.js"],
-    displayInfo() {
-        return `${this.name} offers courses in ${this.courses.join(", ")}.`;
-    },
-    addCourse(course) {
-        this.courses.push(course);
-        console.log(`Added new course to ${this.name}: ${course}`);
-    },
-    getTotalCourses() {
-        return this.courses.length;
-    }
- };
- 
- const group3 = {
-    name: "AI Innovators",
-    courses: ["Artificial Intelligence", "Machine Learning", "Deep Learning"],
-    displayInfo() {
-        return `${this.name} offers courses in ${this.courses.join(", ")}.`;
-    },
-    addCourse(course) {
-        this.courses.push(course);
-        console.log(`Added new course to ${this.name}: ${course}`);
-    },
-    getTotalCourses() {
-        return this.courses.length;
-    }
- };
- 
- // Function to render groups
- function renderGroups() {
+}
+
+// Initial groups
+let groups = [
+    new Group("Math Enthusiasts", ["Math", "Statistics", "Calculus"]),
+    new Group("JavaScript Developers", ["JavaScript", "React", "Node.js"]),
+    new Group("AI Innovators", ["Artificial Intelligence", "Machine Learning", "Deep Learning"])
+];
+
+// Function to render groups
+function renderGroups() {
     const groupsList = document.getElementById("groups-list");
-    
-    const groups = [group1, group2, group3];
+    groupsList.innerHTML = ''; // Clear existing groups
     
     groups.forEach(group => {
         const groupCard = document.createElement("div");
@@ -56,23 +37,43 @@ const group1 = {
         
         const groupName = document.createElement("h2");
         groupName.textContent = group.name;
- 
+
         const groupInfo = document.createElement("p");
         groupInfo.textContent = group.displayInfo();
- 
+
         const joinButton = document.createElement("button");
         joinButton.className = "join-button";
         joinButton.textContent = "Join";
         joinButton.onclick = () => alert(`You have joined ${group.name}!`);
- 
+
         groupCard.appendChild(groupName);
         groupCard.appendChild(groupInfo);
         groupCard.appendChild(joinButton);
- 
+
         groupsList.appendChild(groupCard);
     });
- }
- 
- // Call the function to render groups on page load
- window.onload = renderGroups;
- 
+}
+
+// Function to handle group creation
+function createGroup(event) {
+    event.preventDefault();
+    const nameInput = document.getElementById('group-name');
+    const coursesInput = document.getElementById('group-courses');
+
+    const name = nameInput.value.trim();
+    const courses = coursesInput.value.split(',').map(course => course.trim());
+
+    if (name && courses.length > 0) {
+        const newGroup = new Group(name, courses);
+        groups.push(newGroup);
+        renderGroups();
+        nameInput.value = '';
+        coursesInput.value = '';
+    }
+}
+
+// Event listeners
+window.onload = () => {
+    renderGroups();
+    document.getElementById('create-group-form').addEventListener('submit', createGroup);
+};
