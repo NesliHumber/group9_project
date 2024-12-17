@@ -26,13 +26,13 @@ The Computer Programming Skill Swap Platform aims to solve the problem of findin
 
 ### Key Features
 
-+**User Profile Pages:** Users can create and manage profiles with skill listings, expertise levels, and teaching packages.
-+**Skill Matching:** Interactive charts and filters suggest potential skill-swap partners.
-+**Swap Scheduling:** A calendar system allows users to schedule and confirm swap sessions.
-+**Rating & Review System:** Users can rate their swap sessions, providing feedback to others.
-+**Groups & Forums:** Create or join groups, participate in discussions, and learn in a collaborative environment.
-+**News & Trends:** Stay updated with the latest programming trends, tutorials, and resources.
-+**Secure Payment Gateway:** A secure payment system for users who wish to sell their educational materials.
+* **User Profile Pages:** Users can create and manage profiles with skill listings, expertise levels, and teaching packages.
+* **Skill Matching:** Interactive charts and filters suggest potential skill-swap partners.
+* **Swap Scheduling:** A calendar system allows users to schedule and confirm swap sessions.
+* **Rating & Review System:** Users can rate their swap sessions, providing feedback to others.
+* **Groups & Forums:** Create or join groups, participate in discussions, and learn in a collaborative environment.
+* **News & Trends:** Stay updated with the latest programming trends, tutorials, and resources.
+* **Secure Payment Gateway:** A secure payment system for users who wish to sell their educational materials.
 
 ### Main Features
 
