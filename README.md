@@ -93,30 +93,40 @@ Once the platform is up and running, you can:
         - For functionality development seperate **feature/<feature-name>** branch for every functionality
         - For development track **develop** branch
         - Conducting deployment via seperate **deploy** branch
+- Developed nd worked on:
+      - MyAccount page
+      - Groups page
+      - Sign Up, Sign In, Sign Out functionalities
+- Added responsive design adaptable to various devices
+- Used feature/deploy, feature/user_dashboard, feature/groups_page branches
 - Performed manual testing to ensure platform functionality
 
 #### Mitzi Garcia (JavaScript Developer & UI/UX Designer & Social Media Manager & Manual Tester)
 
 - Developed the layout and styling of the platform, ensuring user accessibility and a responsive design
 - Ensured consistent layout and styling across all pages and application functionalities
-- Developed ............... pages
-- Worked on .... functionalities
-- Added ..............
-- Used ...... branches
+- Developed:
+      - Homepage
+      - Forums page
+      - Seperate development of each forum categories page
+- Worked on:
+      - UI Design and Overall Website Design Consistency
+      - Homepage development with its adaptive design to various devices
+      - Development of forum page with 4 active forums, their connections to actual seperate topic-related forum categories
+- Added responsive design adaptable to various devices
+- Used feature/forums_page and feature/home_page branches
 - Performed manual testing to ensure platform functionality
 
 #### Aakarshan Sharma (JavaScript Developer & Manual Tester)
-- Developed ............... pages
-- Worked on .... functionalities
-- Added ..............
-- Used ...... branches
+
+- Developed About Us, Trends & News, Shop pages
+- Used feature/about_us, feature/shop_page, feature/trends_and_news branches
 - Performed manual testing to ensure platform functionality
 
 #### Ralph Vincent Sampaga (JavaScript Developer & Manual Tester)
-- Developed ............... pages
-- Worked on .... functionalities
-- Added ..............
-- Used ...... branches
+
+- Developed Find Swap and Contact pages
+- Used feature/find_swap_page, feature/contact_page branches
 - Performed manual testing to ensure platform functionality
 
 ### Project Workflow
