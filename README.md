@@ -181,7 +181,7 @@ Once the platform is up and running, you can:
 ### Challenges & Solutions
 
 * **Challenge 1:** Integrating the Swap Scheduling Feature
-* Solution: We researched different calendar libraries and successfully integrated a custom solution to handle date/time selection and swap session confirmations.
+* **Solution**: We researched different calendar libraries and successfully integrated a custom solution to handle date/time selection and swap session confirmations.
 
 * **Challenge 2:** Payment Gateway Integration
 * **For future versions:** we search for a secure payment provider to integrate our user-friendly checkout flow to ensure smooth payment processing.
