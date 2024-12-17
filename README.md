@@ -153,19 +153,19 @@ Once the platform is up and running, you can:
   + feature/sign_in
 
 
-**main:** The main branch where the stable code resides.
-**develop:** Used for integrating all features before deployment.
-**deploy:** Used for deploying all functionalities before transfering the codes to main branch.
-**feature/<feature-name>:** Page-specific branches for development.
-**Pull Requests:** Changes are merged into the develop branch via pull requests, with at least one peer review required for approval.
+* **main:** The main branch where the stable code resides.
+* **develop:** Used for integrating all features before deployment.
+* **deploy:** Used for deploying all functionalities before transfering the codes to main branch.
+* **feature/<feature-name>:** Page-specific branches for development.
+* **Pull Requests:** Changes are merged into the develop branch via pull requests, with at least one peer review required for approval.
 
 ### Issues & Project Board:
 
-10 issues are created and closed after functionality development.
-GitHub issues (closed) link: https://github.com/NesliHumber/group9_project/issues?q=is%3Aissue+is%3Aclosed 
+* 10 issues are created and closed after functionality development.
+* GitHub issues (closed) link: https://github.com/NesliHumber/group9_project/issues?q=is%3Aissue+is%3Aclosed 
 
-The project board is used to manage tasks and progress. 
-Project Board Link: https://github.com/users/NesliHumber/projects/1/views/2
+* The project board is used to manage tasks and progress. 
+* Project Board Link: https://github.com/users/NesliHumber/projects/1/views/2
 
 ### Development Phases
 
