@@ -236,3 +236,6 @@ footer {
         margin-bottom: 1em;
     }
 }
+#signout-button {
+    display: block !important; /* Ensure it's visible */
+}
