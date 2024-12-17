@@ -44,6 +44,10 @@ The Computer Programming Skill Swap Platform aims to solve the problem of findin
 * **Groups:** Users can form or join study groups based on their learning interests.
 * **Shopping:** Users can purchase or sell coding materials through the platform’s online store.
 
+### Video Presentation of the Project
+
+https://www.youtube.com/watch?v=D1hvewGAaek
+
 ### Technologies
 
 The platform is built with the following technologies:
@@ -197,6 +201,7 @@ Once the platform is up and running, you can:
 * **GitHub Repository:** [group9_project](https://github.com/NesliHumber/group9_project.git)
 * **Project Board:** GitHub Project Board: https://github.com/users/NesliHumber/projects/1/views/2
 * **Deployment:** The project is hosted on GitHub Pages. Visit the live version at: [https://neslihumber.github.io/group9_project/](https://neslihumber.github.io/group9_project/)
+*  **Video Presentation:** https://www.youtube.com/watch?v=D1hvewGAaek
 
 
 ### Future Enhancements:
