@@ -46,8 +46,7 @@ The Computer Programming Skill Swap Platform aims to solve the problem of findin
 
 ### Video Presentation of the Project
 
-[![Watch the video](https://img.youtube.com/vi/<D1hvewGAaek>/0.jpg)](https://www.youtube.com/watch?v=<D1hvewGAaek>)![image](https://github.com/user-attachments/assets/676ff564-810a-4308-a66d-7575ed4a4ff4)
-
+[![Watch the video](https://img.youtube.com/vi/D1hvewGAaek/0.jpg)](https://www.youtube.com/watch?v=D1hvewGAaek)
 
 https://www.youtube.com/watch?v=D1hvewGAaek
 
