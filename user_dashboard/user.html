@@ -35,6 +35,10 @@
                 <li><a href="#messages">Messages</a></li>
                 <li><a href="#settings">Settings</a></li>
             </ul>
+            <button id="signout-button" class="signout-btn">
+                <span class="icon"></span>
+                <span class="text">Sign Out</span>
+            </button>
         </aside>
 
         <section class="main-content">
@@ -69,19 +73,7 @@
         <p>&copy; 2024 SkillSwap - Programming Skill Swap Platform. All rights reserved.</p>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const userDataString = localStorage.getItem('userData');
-            if (userDataString) {
-                const userData = JSON.parse(userDataString);
-                document.querySelector('h1').textContent = `Welcome, ${userData.username}!`;
-                document.getElementById('user-info').innerHTML = `
-                    <p>Username: ${userData.username}</p>
-                    <p>Email: ${userData.email}</p>
-                `;
-            }
-        });
-    </script>
+<script src="user.js"></script>
 
 </body>
 </html>
