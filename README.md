@@ -119,9 +119,13 @@ Once the platform is up and running, you can:
 
 #### Aakarshan Sharma (JavaScript Developer & Manual Tester)
 
-- Developed About Us, Trends & News, Shop pages
-- Used feature/about_us, feature/shop_page, feature/trends_and_news branches
-- Performed manual testing to ensure platform functionality
+- Developed the layout, interactivity, and functionality of the following pages:
+    - About Us page: Designed a clean, professional layout introducing the platform and its mission.
+    - Trends & News page: Created a dynamic page showcasing IT-related news with card-based sections and external resource links.
+    - Shop page: Implemented product display grid, interactive cart system, wishlist functionality, search bar, and sorting features.
+- Ensured design consistency and responsiveness across all developed pages, maintaining alignment with the overall theme of the platform.
+- Used feature/about_us, feature/trends_and_news, and feature/shop_page branches.
+- Performed manual testing to validate page responsiveness, functionality, and user interactivity.
 
 #### Ralph Vincent Sampaga (JavaScript Developer & Manual Tester)
 
