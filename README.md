@@ -203,7 +203,7 @@ Once the platform is up and running, you can:
 * **GitHub Repository:** [group9_project](https://github.com/NesliHumber/group9_project.git)
 * **Project Board:** GitHub Project Board: https://github.com/users/NesliHumber/projects/1/views/2
 * **Deployment:** The project is hosted on GitHub Pages. Visit the live version at: [https://neslihumber.github.io/group9_project/](https://neslihumber.github.io/group9_project/)
-*  **Video Presentation:** https://www.youtube.com/watch?v=D1hvewGAaek
+*  **Video Presentation:** https://www.youtube.com/watch?v=D1hvewGAaek 
 
 
 ### Future Enhancements:
